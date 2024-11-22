@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-image: url(../images/OIP\ \(1\).jfif);
+    height: 100vh;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(162, 86, 232, 0.693);
+}
+header nav img{
+    width: 80px;
+    margin: 10px;
+    margin-left: 10%;
+    border-radius: 50px;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 40px;
+}
+header nav li{
+    margin-right: 25px;
+}
+header nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+header nav li:hover{
+    font-size: 40px;
+    border-bottom: 1px solid white;
+}
+header .container{
+    text-align: center;
+    margin-top: 15%;
+}
+.container h1{
+    color: aliceblue;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.container span{
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+.container p{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: aliceblue;
+}   
+.container a{
+    text-transform: capitalize;
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    padding: 15px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+.container a:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.container2{
+    background-image: url(../images/pexels-padrinan-255379.jpg);
+    height: 70vh;
+    background-size: cover;
+}
+.container2 span{
+    color: blueviolet;
+}
+.container2 h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.container2 p{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 5%;
+    padding-top: 30px;
+    padding-top: 30px;
+}
+.about p{
+    text-transform: capitalize;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 30px;
+}
+.about img{
+    border-radius: 20px;
+    margin-right: 7%;
+}
+.about .s{
+    color: blueviolet;
+}
+.container3{
+    margin-top: 100px;
+    display: block;
+    height: 145vh;
+}
+.container3 h2{
+    font-size: 40px;
+    color: skyblue;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 65px;
+    text-align: center;
+}
+.container3 span{
+    color: blueviolet;
+}
+.cams{
+    display: block;
+}
+.cams1{
+    display: flex;
+    justify-content: space-around;
+}
+.cameras{
+    border: 1px solid black;
+    border: none;
+    background-image: url(../images/images\ \(1\).jpeg);
+    background-size: cover;
+    border-radius: 15px;
+    height: 450px;
+    width: 450px;
+    text-align: center;
+}
+.cameras img{
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cameras h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+.cameras p{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+.cameras h4{
+    font-size: 25px;
+    color: gold;
+}
+.cams2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.cams3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.cams4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.container4{
+    margin-top: 70px;
+    display: block;
+    background-image: url(../images/IMG-20241004-WA0005.jpg);
+    background-size: cover;
+    height: 75vh;
+}
+.container4 h2{
+    text-transform: uppercase;
+    color: blueviolet;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 60px;
+    text-align: center;
+    padding-top: 40px;
+}
+.testmonials{
+    display: flex;
+    justify-content: space-around;
+}
+.testmonial{
+    border: 1px solid black;
+    border: none;
+    border-radius: 15px;
+    background-image: url(../images/offer-background.jpg);
+    background-size: cover;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+}
+.testmonial h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: white;
+}
+.testmonial img{
+    width: 120px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.icon{
+    margin-bottom: 20px;
+}
+.icon i{
+    font-size: 20px;
+    margin-right: 10px;
+    color: white;
+    color: yellow;
+}
+.testmonial p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.container5{
+    height: 100vh;
+    background-size: cover;
+    background-image: url(../images/pexels-pixabay-531880.jpg);
+}
+.container5 h2{
+    padding-top: 40px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: blueviolet;
+    text-align: center;
+}
+.contact_us{
+    display: flex;
+    justify-content: space-around;
+}
+.adress{
+    display: block;
+}
+.place{
+    margin-bottom: 70px;
+}
+.place h3{
+    text-transform: capitalize;
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+.place p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white;
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.place p a{
+    margin-left: 10px;
+    color: white;
+}
+.place p i{
+    font-size: 15px;
+    margin-right: 5px;
+    color: gold;
+}
+.work h3{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: white;
+    margin-left: 20px;
+}
+.work p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.work p i{
+    font-size: 15px;
+    margin-right: 5px;
+    color: white;
+}
+.contact .input{
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+.textarea{
+    width: 280px;
+    height: 120px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 35px;
+}
+.contact .submit{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: aliceblue;
+    border: none;
+    text-decoration: none;
+    color: black;
+    width: 250px;
+    height: 50px;
+    transition: 1s ease all;
+}
+.contact .submit:hover{
+    transform: scale(1.2);
+    font-size: 20px;
+    background-color: gold;
+}
+.btnTop {
+    height:50px;
+    position: fixed;
+    bottom: 20px;
+    right: 5px; 
+    background: rgba(163, 75, 244, 0.721); 
+    border: none;
+    cursor: pointer;
+    display: none;
+    border-radius: 50px;
+    z-index:9999;
+    padding: 0px 5px;
+}
+.btnTop i{
+    font-size:25px;
+    color: #b1afaf;
+}
+@media (max-width:667px){
+    header{
+        width: 120%;
+    }
+    header nav{
+        display: block;
+        text-align: center;
+    }
+    header nav img{
+        margin-bottom: 20px;
+    }
+    header nav ul{
+        margin: auto;
+        margin-left: 22px;
+    }
+    header .container{
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 50%;
+    }
+    header .container h1{
+        margin-bottom: 30px;
+    }
+    header .container p{
+        margin-bottom: 50px;
+    }
+    .about{
+        display: block;
+    }
+    .container2{
+        height: 130vh;
+        width: 100%;
+    }
+    .container2 p{
+        margin-bottom: 30px;
+    }
+    .about img{
+        width: 300px;
+        height: 240px;
+        margin-left: 10px;   
+    }
+    .container3{
+        height: 380vh;
+        width: 100%;
+    }
+    .cams{
+        text-align: center;
+        margin-left: 10%;
+    }
+    .cams1{
+        display: block;
+    }
+    .cameras{
+        margin-bottom: 30px;
+        width: 350px;
+        height: 500px;
+    }
+    .cams2{
+        display: block;
+    }
+    .container4{
+        height: 125vh;
+        width: 100%;
+        margin-left: 15%;
+    }
+    .testmonials{
+        display: block;
+    }
+    .testmonial{
+        margin-bottom: 30px;
+        margin-left: 12px;
+    }
+    .container5{
+        height: 110vh;
+    }
+    .contact_us{
+        display: block;
+    }
+    .adress{
+        margin-bottom: 50px;
+    }
+    .place{
+        margin-bottom: 50px;
+    }
+}
