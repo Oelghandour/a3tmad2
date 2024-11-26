@@ -7,7 +7,8 @@ html{
     scroll-behavior: smooth;
 }
 header{
-    background-image: url(../images/OIP\ \(1\).jfif);
+    background-image: linear-gradient(to right, blue,tomato);
+
     height: 100vh;
     background-size: cover;
     z-index: 1;
@@ -23,71 +24,40 @@ header::before{
     z-index: -1;
     background-color: rgba(0, 0, 0, 0.5);
 }
-header nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    background-color: rgba(162, 86, 232, 0.693);
-}
 header nav img{
-    width: 80px;
-    margin: 10px;
-    margin-left: 10%;
-    border-radius: 50px;
+    width: 100px;
+    padding-top: 10px;
+    border-radius: 30px;
 }
-header nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    margin-right: 40px;
+header nav a{
+    transition: 2s ease;
 }
-header nav li{
-    margin-right: 25px;
-}
-header nav li a{
-    text-decoration: none;
-    font-size: 20px;
-    color: aliceblue;
-}
-header nav li:hover{
-    font-size: 40px;
-    border-bottom: 1px solid white;
-}
-header .container{
-    text-align: center;
+.content{
     margin-top: 15%;
+    text-align: center;
 }
-.container h1{
-    color: aliceblue;
-    font-size: 45px;
+.content h1{
+    padding-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 20px;
+    font-size: 50px;
     text-transform: uppercase;
+    color: white;
+    margin-bottom: 10px;
 }
-.container span{
-    color: blueviolet;
-    margin-bottom: 20px;
-}
-.container p{
-    text-transform: capitalize;
+.content p{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    margin-bottom: 30px;
-    color: aliceblue;
-}   
-.container a{
+    color: white;
     text-transform: capitalize;
-    border: 1px solid blueviolet;
-    background-color: blueviolet;
-    padding: 15px 40px;
-    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.content a{
     text-decoration: none;
     color: white;
-}
-.container a:hover{
-    background-color: white;
-    color: black;
-    border: none;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 2s ease;
 }
 .about{
     display: flex;
@@ -95,7 +65,7 @@ header .container{
 }
 .container2{
     background-image: url(../images/pexels-padrinan-255379.jpg);
-    height: 70vh;
+    height: 75vh;
     background-size: cover;
 }
 .container2 span{

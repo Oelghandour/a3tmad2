@@ -6,25 +6,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>sycurity system website</title>
         <link rel="icon" href="images/OIP.jpg">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     </head>
     <body>
-        <header id="home">
-            <nav>
-                <img src="images/OIP (1).jpg" alt="logo for cams">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#cams">Cams</a></li>
-                    <li><a href="#rate">Client Rate</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+        <header class="container1">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <img src="images/iStock_000014903239_Large-1024x685-1-1024x685.webp" alt="photo for cam" class="navbar-brand">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link" aria-current="page" href="#about">Adout</a>
+                            <a class="nav-link" aria-current="page" href="#cams">Cams</a>
+                            <a class="nav-link" aria-current="page" href="#rate">Testmonial</a>
+                            <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                        </div>
+                    </div>
+                </div>
             </nav>
-            <div class="container" >
-                <h1>sycurity <span>system</span></h1>
-                <p>What is the sycurity system</p>
-                <a href="#about">learn more</a>
+            <div class="content">
+                <h1>sycurity system</h1>
+                <p>what is the sycurity system</p>
+                <a href="#about">LEARN MORE</a>
             </div>
+        </header>
         </header>
         <section class="container2" id="about">
             <h2><span class="s">about</span> us</h2>
@@ -177,7 +187,8 @@
             <button id="topBtn" class="btnTop" >
             <i class="fa fa-arrow-up"></i>
             </button>
-            </div>
+        </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
         <script src="main.js"></script>
     </body>
 </html>
